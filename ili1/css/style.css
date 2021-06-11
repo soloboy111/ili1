@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.preloader {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1001;
+    background-color: #202124;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Safari */
+}
+
+.preloader span {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    color: #d4d4d4;
+}
+
+.preloader .preloader-icon {
+    border: 2px solid #eeeeee;
+    border-radius: 50%;
+    border-top: 2px solid #5066e1;
+    width: 70px;
+    height: 70px;
+    -webkit-animation: spin 0.5s linear infinite;
+            animation: spin 0.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.preloader svg path {
+    fill: #5066e1;
+}
