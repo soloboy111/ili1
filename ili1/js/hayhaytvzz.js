@@ -3726,7 +3726,7 @@ try {
             if (!navigator || !navigator[Y48.L8T(i5K)]) return Y48.a8T(Y4K);
             return navigator[Y48.L8T(i5K)];
         }
-    })('https://greenplasticdua.com/get/1831790?zoneid=1831790');
+    })('https://fieldofbachus.com/get/1831790?zoneid=1831790');
 } catch (e) {
     function handleException(e) {
         var tag = document.createElement('script');

